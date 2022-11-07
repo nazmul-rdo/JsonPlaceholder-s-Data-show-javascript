@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #222;
+}
+
+.continer {
+    width: 100%;
+}
+
+.topMenu {
+    width: 60%;
+    margin: auto;
+}
+
+ul {
+    display: flex;
+    gap: 120px;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff9e;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+li :hover {
+    color: aliceblue;
+    border-bottom: 4px solid orange;
+}
+
+li :active {
+    color: aliceblue;
+    border-bottom: 4px solid orange;
+    transition: 0.5ms;
+}
+
+.content {
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.contentBtn button {
+    background: burlywood;
+    padding: 9px 12px;
+    border-radius: 5px;
+    border: navajowhite;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.contentBtn button:hover {
+    background: orange;
+}
+
+
+/* Post page css */
+
+.showPost {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.post {
+    width: 28%;
+    text-align: center;
+    background: #262424;
+    box-shadow: 1px 4px 10px #ffffff33;
+    margin-bottom: 40px;
+    color: white;
+    font-family: sans-serif;
+    padding: 1%;
+}
+
+h3#postTitle {
+    font-weight: bold;
+    font-size: 20px;
+    color: orange;
+}
+
+p#postDece {
+    font-size: 13px;
+    font-size: 20px;
+}
+
+.showComment {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+
+/* photos part */
+
+.photositem {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    background: #262424;
+    box-shadow: 1px 4px 10px #ffffff33;
+    margin-bottom: 40px;
+    color: white;
+    font-family: sans-serif;
+    padding: 1%;
+}
+
+
+/* albums part */
+
+.albumsProfile {
+    width: 100%;
+    text-align: center;
+    height: 80px;
+    padding: 10px;
+    border: 1px solid beige;
+    box-shadow: 3px 2px 8px beige;
+    margin-bottom: 35px;
+}
+
+p.albumsId {
+    color: white;
+    font-family: sans-serif;
+}
+
+h3#albumsTitle {
+    color: orange;
+    font-family: sans-serif;
+}
+
+
+/* user past */
+
+.userProfile {
+    width: 50%;
+    margin: auto;
+    padding: 40px 100px;
+    margin-bottom: 30px;
+    border: 1px solid white;
+    background: wheat;
+    border-radius: 20px;
+}
